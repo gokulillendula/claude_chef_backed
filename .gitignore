@@ -1,0 +1,14 @@
+.env
+.env.*
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+venv/
+env/
+
+# ===== DJANGO STATIC / MEDIA =====
+staticfiles/
+media/
