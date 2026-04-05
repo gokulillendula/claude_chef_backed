@@ -17,7 +17,7 @@ import os
 load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY")
-GEMINI_API_KEY='AIzaSyAElHVTGfOn9nO67T65qQJY7VfYd2yO1Yc'
+GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
